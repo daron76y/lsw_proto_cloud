@@ -1,0 +1,51 @@
+{
+  "partyA": {
+    "name": "Heroes",
+    "units": [
+      {
+        "name": "Warrior",
+        "classLevels": { "WARRIOR": 1 },
+        "mainClass": "WARRIOR",
+        "effects": [
+          {
+            "type": "ManaBurn"
+          }
+        ],
+        "abilities": [
+          {
+            "type": "BerserkerAttack",
+            "manaCost": 2
+          }
+        ],
+        "experience": 0,
+        "maxHealth": 50,
+        "maxMana": 10,
+        "attack": 8,
+        "defense": 5,
+        "health": 50,
+        "mana": 10
+      }
+    ]
+  },
+  "partyB": {
+    "name": "Monsters",
+    "units": [
+      {
+        "name": "Goblin",
+        "classLevels": { "WARRIOR": 1 },
+        "mainClass": "WARRIOR",
+        "effects": [],
+        "abilities": [],
+        "experience": 0,
+        "maxHealth": 30,
+        "maxMana": 0,
+        "attack": 5,
+        "defense": 2,
+        "health": 30,
+        "mana": 0
+      }
+    ]
+  },
+  "inputA": "HTTP",
+  "inputB": "HTTP"
+}
