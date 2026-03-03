@@ -1,4 +1,4 @@
-package com.lsw_proto_cloud.core.persistence.test;
+package com.lsw_proto_cloud.core.persistence;
 
 import com.lsw_proto_cloud.core.*;
 import com.lsw_proto_cloud.core.abilities.BerserkerAttack;
