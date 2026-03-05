@@ -4,6 +4,13 @@ import com.lsw_proto_cloud.battle.InputService;
 import com.lsw_proto_cloud.battle.BattleCommand;
 import com.lsw_proto_cloud.core.Party;
 import com.lsw_proto_cloud.core.Unit;
+import com.lsw_proto_cloud.battle.WaitCommand;
+import com.lsw_proto_cloud.battle.DefendCommand;
+import com.lsw_proto_cloud.battle.AttackCommand;
+import com.lsw_proto_cloud.battle.CastCommand;
+import com.lsw_proto_cloud.core.abilities.Ability;
+import java.util.Random;
+
 
 public class AIInputService implements InputService {
      private static final Random random = new Random();
