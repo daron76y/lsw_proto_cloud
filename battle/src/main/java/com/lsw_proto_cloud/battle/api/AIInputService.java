@@ -10,6 +10,7 @@ import com.lsw_proto_cloud.battle.AttackCommand;
 import com.lsw_proto_cloud.battle.CastCommand;
 import com.lsw_proto_cloud.core.abilities.Ability;
 import java.util.Random;
+import java.util.List;
 
 
 public class AIInputService implements InputService {
