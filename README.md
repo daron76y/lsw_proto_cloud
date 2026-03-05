@@ -6,11 +6,10 @@ A cloud-based RPG system built with Spring Boot and Java 23.
 - [Project Overview](#project-overview)
 - [Project Structure](#project-structure)
 - [CI/CD Pipeline](#cicd-pipeline)
-- [Team Contributions](#team-contributions)
 
 ## Project Overview
 
-This project is a multi-module Maven application with four main components:
+This cloud project for CSSD 2211 is a multi-module Maven application that includes four main components:
 
 ```
 lsw_proto_cloud/
@@ -68,9 +67,7 @@ The automated CI/CD pipeline runs on every push and pull request to the `main` a
 2. **Code Quality** - Performs Maven verify checks
 3. **Docker Build** - Creates container images for deployment (main branch only)
 
-**Configuration File:** [`.github/workflows/ci.yml`](.github/workflows/ci.yml)
-
-**Detailed Documentation:** See [CI-CD.md](CI-CD.md) for complete pipeline documentation.
+**Config File:** [`.github/workflows/ci.yml`](.github/workflows/ci.yml)
 
 ### Pipeline Architecture
 
