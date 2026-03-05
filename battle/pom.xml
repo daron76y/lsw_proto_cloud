@@ -1,3 +1,10 @@
+What to deliver?
+For both deliverables make sure to deliver:
+1.	Documentation: It should describe your main design choices, present the general architecture of your system outlining its components, their function, their interfaces and the flow of data and functionality between them. Use both text and visual aids (diagrams).
+2.	Code: for all components.
+3.	Scripts: build, orchestration, CI/CD and anything else you use to deploy, run and maintain your system.
+4.	Manual: Detailed instructions for installation, configuration, deployment, execution. Make sure you include all necessary details for someone outside your team to be able to install and run your system. Provide the correct modules, versions and other components your system needs to run.
+5.	GitHub repository: Provide everything in a repository (code, documentation, scripts, manual). Make the repository public so that it can be accessed by instructor and TAs.
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
