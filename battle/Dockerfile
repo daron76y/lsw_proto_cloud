@@ -1,7 +1,7 @@
-# Use OpenJDK 23 runtime
+# Use OpenJdk 23 runtime
 FROM eclipse-temurin:23-jdk-alpine
 
-# Make Spring Boot listen on all interfaces
+# Make Spring Boot listen on all addresses
 ENV SERVER_ADDRESS=0.0.0.0
 
 # Set working directory
